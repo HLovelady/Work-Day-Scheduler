@@ -14,7 +14,7 @@ $(document).ready(function () {
     })
    
     function timeTracker() {
-        //get current number of hours.
+        //number of hours
         var timeNow = moment().hour();
 
         // Timeblock for loop, lops through to color code
@@ -41,7 +41,7 @@ $(document).ready(function () {
         })
     }
 
-    // Get item from local storage if any
+    // Retrieve items from Local
     $("#hour8 .description").val(localStorage.getItem("hour8"));
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));

@@ -1,24 +1,35 @@
+:root {
+  --dark-gray: #343030;
+  --light-gray: #CACACA;
+  --orange: #d64626;
+  --blue: #ABE1EA;
+  --cream: #F0E6DB;
+  --green: #2D6C30;
+
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  padding: 50px;
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: var(--dark-gray);
+  border-left: 1px solid var(--dark-gray);
   padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: var(--dark-gray);
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid var(--dark-gray);
 }
 
 .description {
@@ -38,31 +49,31 @@ textarea {
 
 .hour {
   background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  color: var(--dark-gray);
+  border-top: 1px dashed var(--dark-gray);
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: var(--light-gray);
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: var(--orange);
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: var(--green);
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid var(--dark-gray);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: var(--blue);
+  color: var(--dark-gray);
 }
 
 .saveBtn i:hover {
