@@ -34,7 +34,7 @@ THEN the saved events persist
 
 ## Application and GitHub
 
-The URL of the deployed application
+The URL of the deployed application: https://hlovelady.github.io/Work-Day-Scheduler/
 
 The URL of the GitHub repository: https://github.com/HLovelady/Work-Day-Scheduler
 
